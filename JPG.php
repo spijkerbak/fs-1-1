@@ -61,7 +61,7 @@ class JPG extends File {
     function getSource($w = 0, $h = 0) {
         $relpath = str_ireplace(IMG_ROOT, '', $this->path);
 
-        $src = "http://marcia/image?src={$relpath}";
+        $src = "http://localhost/image?src={$relpath}";
         if ($w != 0) {
             $src .= "&w={$w}";
         }
