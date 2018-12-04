@@ -1,5 +1,5 @@
 <?php
-require_once 'common/basic/text.php';
+require_once 'system/text.php';
 
 define ('WEB_ROOT', 'M:/Users/Tester/Documents/Ontw/');
 define ('IMG_ROOT', 'M:/Users/Tester/Pictures/');
